@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_meinv"
+            android:title="美女图片" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_model"
+            android:title="模特壁纸" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_huaban"
+            android:title="花瓣福利" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="分享APP" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="关于APP" />
+        </menu>
+    </item>
+
+</menu>
